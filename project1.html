@@ -18,62 +18,78 @@
             height: 60%;
             /* Make the image height 200% of its container */
         }
+
+        /* Add hover effect to portfolio items */
+        .portfolio-item:hover {
+            transform: scale(1.25); /* Scale up on hover */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+        }
     </style>
 </head>
 
 <body class="bg-blue-100 font-sans leading-normal tracking-normal">
 
-    <!-- Navigation -->
-    <nav class="bg-blue-200 p-6">
-        <div class="container mx-auto flex justify-between items-center">
-            <a class="font-bold text-xl" href="#">Portfolio</a>
-            <div>
-                <a class="inline-block text-gray-700 hover:text-black mr-4" href="#">Home</a>
-                <a class="inline-block text-gray-700 hover:text-black mr-4" href="#">About</a>
-                <a class="inline-block text-gray-700 hover:text-black" href="#">Contact</a>
-            </div>
+
+<!-- Navigation -->
+<nav class="bg-blue-200 p-6">
+    <div class="container mx-auto flex justify-between items-center">
+        <!-- Portfolio link with hover effect -->
+        <a class="font-bold text-xl hover:text-gray-800" href="index.html">Portfolio</a>
+        <div>
+            <!-- Navigation links with hover effect and text background -->
+            <a class="nav-link inline-block text-gray-700 hover:text-black hover:bg-blue-300 rounded-full px-4 py-2 mr-4" href="index.html">Home</a>
+            <a class="nav-link inline-block text-gray-700 hover:text-black hover:bg-blue-300 rounded-full px-4 py-2 mr-4" href="about.html">About</a>
+            <a class="nav-link inline-block text-gray-700 hover:text-black hover:bg-blue-300 rounded-full px-4 py-2" href="contactme.html">Contact</a>
         </div>
-    </nav>
+    </div>
+</nav>
 
     <!-- Header -->
     <header class="relative bg-white py-20">
         <div class="container mx-auto text-center relative z-10">
-            <h1 class="text-4xl font-bold text-gray-800">Project 1 Showcase</h1>
-            <p class="mt-4 text-lg text-gray-700">A brief overview of Project 1.</p>
+            <h1 class="text-4xl font-bold text-gray-800">Toronto Cupcake</h1>
+            <p class="mt-4 text-lg text-gray-700">2022</p>
         </div>
     </header>
-
-    <!-- Main Content -->
     <main class="container mx-auto py-12">
-        <section class="mb-8">
-            <h2 class="text-2xl font-bold mb-4">Project Overview</h2>
-            <p class="text-gray-700">This section provides an overview of Project 1, including its goals, objectives, and any other relevant information.</p>
+        <section class="mb-8 bg-white py-8 px-4 rounded-lg">
+            <div class="container mx-auto">
+                <h2 class="text-2xl font-bold mb-4 text-center">Project Overview</h2>
+                <p class="text-gray-700">
+                    During my first year in CMD, I redesigned the website for Toronto Cupcake, a cupcake shop in Toronto. Through a heuristic analysis, I identified non-user-friendly elements on the website and improved them through a redesign to enhance usability. 
+                My objective was to provide a better user experience for visitors to the website, enabling them to easily order cupcakes and find information about the assortment and the shop.</p>
+                </p>
+                <div class="text-center">
+                    <a href="https://www.figma.com/file/Vvfsb1l7J1CW0loDxM9Brv/Toronto-Cupcake-redesign?type=design&node-id=1%3A2&mode=design&t=gn3kqdngDYNFMtrn-1" class="btn mt-4 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Link to full redesign</a>
+                </div>
+            </div>
         </section>
 
+
         <section class="mb-8">
-            <h2 class="text-2xl font-bold mb-4">Project Media</h2>
+            <h2 class="text-2xl font-bold mb-4 text-center">Project Media</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Showcase media for the project (images, videos, etc.) -->
-                <div class="shadow-md rounded-lg overflow-hidden bg-white">
+                <div class="shadow-md rounded-lg overflow-hidden bg-white portfolio-item">
                     <img src="project/image.png" alt="Project Image 1" class="w-full">
                 </div>
-                <div class="shadow-md rounded-lg overflow-hidden bg-white">
+                <div class="shadow-md rounded-lg overflow-hidden bg-white portfolio-item">
                     <img src="project/2.png" alt="Project Image 2" class="w-full">
                 </div>
-                <div class="shadow-md rounded-lg overflow-hidden bg-white">
+                <div class="shadow-md rounded-lg overflow-hidden bg-white portfolio-item">
                     <img src="project/image3.png" alt="Project Image 3" class="w-full">
                 </div>
                 <!-- Add more media items here if needed -->
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
                 <!-- Showcase more media for the project (images, videos, etc.) -->
-                <div class="shadow-md rounded-lg overflow-hidden bg-white">
+                <div class="shadow-md rounded-lg overflow-hidden bg-white portfolio-item">
                     <img src="project/image4.png" alt="Project Image 4" class="w-full">
                 </div>
-                <div class="shadow-md rounded-lg overflow-hidden bg-white">
+                <div class="shadow-md rounded-lg overflow-hidden bg-white portfolio-item">
                     <img src="project/image5.png" alt="Project Image 5" class="w-full">
                 </div>
-                <div class="shadow-md rounded-lg overflow-hidden bg-white">
+                <div class="shadow-md rounded-lg overflow-hidden bg-white portfolio-item">
                     <img src="project/2.png" alt="Project Image 6" class="w-full">
                 </div>
                 <!-- Add more media items here if needed -->

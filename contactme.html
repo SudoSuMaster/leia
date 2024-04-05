@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Media Designer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Add hover effect to navigation links */
+        .nav-link:hover {
+            color: #4a4a4a; /* Change text color on hover */
+        }
+
+        /* Add hover effect to portfolio items */
+        .portfolio-item:hover {
+            transform: scale(1.05); /* Scale up on hover */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+        }
+
+        /* Add hover effect to buttons */
+        .btn:hover {
+            background-color: #1e40af; /* Change background color on hover */
+        }
+    </style>
+</head>
+
+<body class="bg-blue-100 font-sans leading-normal tracking-normal">
+
+<!-- Navigation -->
+<nav class="bg-blue-200 p-6">
+    <div class="container mx-auto flex justify-between items-center">
+        <!-- Portfolio link with hover effect -->
+        <a class="font-bold text-xl hover:text-gray-800" href="index.html">Portfolio</a>
+        <div>
+            <!-- Navigation links with hover effect and text background -->
+            <a class="nav-link inline-block text-gray-700 hover:text-black hover:bg-blue-300 rounded-full px-4 py-2 mr-4" href="index.html">Home</a>
+            <a class="nav-link inline-block text-gray-700 hover:text-black hover:bg-blue-300 rounded-full px-4 py-2 mr-4" href="about.html">About</a>
+            <a class="nav-link inline-block text-gray-700 hover:text-black hover:bg-blue-300 rounded-full px-4 py-2" href="contactme.html">Contact</a>
+        </div>
+    </div>
+</nav>
+
+
+    <!-- Header -->
+    <header class="relative bg-white py-20">
+        <div class="container mx-auto text-center relative z-10">
+            <h1 class="text-4xl font-bold text-gray-800">Contact me</h1>
+            <p class="mt-4 text-lg text-gray-700">Feel free to reach out to me</p>
+        </div>
+    </header>
+
+    <!-- Contact Form -->
+    <section class="container mx-auto py-12">
+        <div class="max-w-md mx-auto bg-white rounded-lg overflow-hidden shadow-md">
+            <div class="p-6">
+                <form action="https://formspree.io/f/mqkrgzjv" method="POST">
+                    <div class="mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="email">Your Email</label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" name="email" type="email" placeholder="example@example.com" required>
+                    </div>
+                    <div class="mb-6">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="message">Your Message</label>
+                        <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" name="message" placeholder="Your message here..." required></textarea>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-200 text-white text-center py-4">
+        <p>&copy; 2024 SudoSuMaster/Leia. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // You can add JavaScript code here if needed
+    </script>
+</body>
+
+</html>

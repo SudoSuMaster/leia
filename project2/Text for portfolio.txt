@@ -1,0 +1,46 @@
+About me section
+-
+
+Hey there! I'm Leia, a creative enthusiast with a passion for video editing, website redesigns, and the captivating realms of motion design and branding.
+
+In my spare time, you'll often find me diving deep into the world of video editing. It's become not just a hobby, but a form of self-expression and exploration. Through experimentation and self-learning, I've mastered tools like After Effects, using them to bring my creative visions to life.
+
+Beyond video editing, I thrive on the challenges of redesigning websites to enhance user experience and functionality. There's something incredibly satisfying about taking a digital space and transforming it into an intuitive, visually engaging platform.
+
+Looking ahead, I'm eager to delve deeper into motion design and branding. The idea of blending visual storytelling with animation and brand identity is truly exciting to me, and I can't wait to explore the endless possibilities within these realms.
+
+As I continue on my creative journey, I'm always open to new opportunities and collaborations. If you share my passion for creativity and digital media, or if you simply want to connect, feel free to reach out. Let's chat and see where our shared interests might take us!
+
+
+
+Toronto Cupcake
+-
+Context: During my first year in CMD, I redesigned the website for Toronto Cupcake, a cupcake shop in Toronto. Through a heuristic analysis, I identified non-user-friendly elements on the website and improved them through a redesign to enhance usability. My objective was to provide a better user experience for visitors to the website, enabling them to easily order cupcakes and find information about the assortment and the shop.
+
+Link: https://www.figma.com/file/Vvfsb1l7J1CW0loDxM9Brv/Toronto-Cupcake-redesign?type=design&node-id=1%3A2&mode=design&t=gn3kqdngDYNFMtrn-1
+
+Kattencafe op zn kop
+-
+Context: During my second year in CMD, I conducted an in-depth study on usability, focusing on the Cat Café in Groningen. For this assignment, I developed three posters and a redesign. The posters encapsulate research methods and findings from usability tests employing techniques such as think-aloud protocols, eye tracking, and SUS (System Usability Scale) interviews. Utilizing these insights, I embarked on a redesign journey to create a more user-friendly version of the Cat Café website. The final poster presents a comparison between the original website and my redesigned version. 
+
+Link: https://www.figma.com/file/x6Es3g1AK0KCnuABNhDObE/UXE-redesign?type=design&node-id=1%3A2&mode=design&t=VbaNEzyRR7kHMykJ-1
+
+Scrollytelling Mario's Evolution
+-
+Context: In my first year of CMD, I created a scrollytelling website exploring the history of Mario's iconic video game franchise. This project allowed me to share Mario's journey in an engaging and easy-to-follow format. I covered various well-known Mario games, offering interesting facts and tapping into the nostalgia felt by many in the target audience. Using storytelling and scrolling techniques in Figma, I ensured a smooth flow between each game, making the experience seamless for the user.
+
+Link: https://www.figma.com/file/FnAkGyP4NmHHfZrMf1KFRI/Mario-scrollytelling?type=design&node-id=0%3A1&mode=design&t=TYkgy99ICrH28ics-1
+
+The truman Show video
+-
+Context: One project I'm proud of is when I recreated 'The Truman Show' through video editing. I added my own unique style to it, focusing on making it visually interesting. By using smooth transitions and eye-catching visuals, I aimed to make Truman's journey feel more real and captivating. It was a fun challenge that allowed me to tell a story in a creative way that people could really connect with.
+
+Mosaic
+-
+Context: Playing around with motion design in After Effects, I crafted a moving mosaic. By using shapes, masks, and keyframes, I made each part move together in harmony. It was a fun experiment in animation, exploring how everything could fit together seamlessly.
+
+
+Waterflow
+-
+In a simple experiment using After Effects, I synced water ripples to one of my favorite songs, "Don't Panic" by Coldplay. It was a fun project exploring how visuals and music can complement each other. By carefully timing and arranging the ripples, I created a captivating visual display that matched the song's rhythm and mood, offering a mesmerizing audio-visual experience.
+

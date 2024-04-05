@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 - Portfolio - Media Designer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .bottom-left {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+            /* Ensure the image is behind the content */
+            width: 20%;
+            /* Make the image width 200% of its container */
+            height: 60%;
+            /* Make the image height 200% of its container */
+        }
+
+        /* Add hover effect to portfolio items */
+        .portfolio-item:hover {
+            transform: scale(1); /* Scale up on hover */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+        }
+    </style>
+</head>
+
+<body class="bg-blue-100 font-sans leading-normal tracking-normal">
+
+
+<!-- Navigation -->
+<nav class="bg-blue-200 p-6">
+    <div class="container mx-auto flex justify-between items-center">
+        <!-- Portfolio link with hover effect -->
+        <a class="font-bold text-xl hover:text-gray-800" href="index.html">Portfolio</a>
+        <div>
+            <!-- Navigation links with hover effect and text background -->
+            <a class="nav-link inline-block text-gray-700 hover:text-black hover:bg-blue-300 rounded-full px-4 py-2 mr-4" href="index.html">Home</a>
+            <a class="nav-link inline-block text-gray-700 hover:text-black hover:bg-blue-300 rounded-full px-4 py-2 mr-4" href="about.html">About</a>
+            <a class="nav-link inline-block text-gray-700 hover:text-black hover:bg-blue-300 rounded-full px-4 py-2" href="contactme.html">Contact</a>
+        </div>
+    </div>
+</nav>
+
+
+    <!-- Header -->
+    <header class="relative bg-white py-20">
+        <div class="container mx-auto text-center relative z-10">
+            <h1 class="text-4xl font-bold text-gray-800">
+                Waterflow</h1>
+            <p class="mt-4 text-lg text-gray-700">2024</p>
+        </div>
+    </header>
+    <main class="container mx-auto py-12">
+        <section class="mb-8 bg-white p-6 rounded-lg">
+            <div class="container mx-auto">
+                <h2 class="text-2xl font-bold mb-4 text-center">Project Overview</h2>
+                <p class="text-gray-700">
+                    In a simple experiment using After Effects, I synced water ripples to one of my favorite songs, "Don't Panic" by Coldplay. It was a fun project exploring how visuals and music can complement each other. By carefully timing and arranging the ripples, I created a captivating visual display that matched the song's rhythm and mood, offering a mesmerizing audio-visual experience.  </div>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold mb-4 text-center">Project Media</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-5">
+                <!-- Showcase media for the project (images, videos, etc.) -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden portfolio-item flex justify-center" style="background-image: url('images/but.png'); background-size: cover; background-position: center;">
+                    <div class="max-w-4xl w-full">
+                        <video src="project2\Beach Waves.mp4" class="w-full" controls poster="project2\image2.png"></video>
+
+                    </div>
+                </div>
+                <!-- Add more media items here if needed -->
+            </div>
+        </section>
+        
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-blue-200 text-white text-center py-4">
+        <p>&copy; 2024 SudoSuMaster/Leia. All rights reserved.</p>
+    </footer>
+
+    <!-- Bottom Left Background Image -->
+    <img class="bottom-left" src="images/aaa.png" alt="Bottom Left Image">
+
+</body>
+
+</html>

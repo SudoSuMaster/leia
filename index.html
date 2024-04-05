@@ -7,110 +7,139 @@
     <title>Portfolio - Media Designer</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
-            .bottom-left {
-                position: fixed;
-                bottom: 0;
-                left: 0;
-                z-index: -1; /* Ensure the image is behind the content */
-                width: 20%; /* Make the image width 200% of its container */
-                height: 60%; /* Make the image height 200% of its container */
-            }
+        /* Add hover effect to navigation links */
+        .nav-link:hover {
+            color: #4a4a4a; /* Change text color on hover */
+        }
+
+        /* Add hover effect to portfolio items */
+        .portfolio-item:hover {
+            transform: scale(1.05); /* Scale up on hover */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+        }
+
+        /* Add hover effect to buttons */
+        .btn:hover {
+            background-color: #1e40af; /* Change background color on hover */
+        }
     </style>
 </head>
 
 <body class="bg-blue-100 font-sans leading-normal tracking-normal">
 
-    <!-- Navigation -->
-    <nav class="bg-blue-200 p-6">
-        <div class="container mx-auto flex justify-between items-center">
-            <a class="font-bold text-xl" href="#">Portfolio</a>
-            <div>
-                <a class="inline-block text-gray-700 hover:text-black mr-4" href="#">Home</a>
-                <a class="inline-block text-gray-700 hover:text-black mr-4" href="#">About</a>
-                <a class="inline-block text-gray-700 hover:text-black" href="#">Contact</a>
-            </div>
+<!-- Navigation -->
+<nav class="bg-blue-200 p-6">
+    <div class="container mx-auto flex justify-between items-center">
+        <!-- Portfolio link with hover effect -->
+        <a class="font-bold text-xl hover:text-gray-800" href="index.html">Portfolio</a>
+        <div>
+            <!-- Navigation links with hover effect and text background -->
+            <a class="nav-link inline-block text-gray-700 hover:text-black hover:bg-blue-300 rounded-full px-4 py-2 mr-4" href="index.html">Home</a>
+            <a class="nav-link inline-block text-gray-700 hover:text-black hover:bg-blue-300 rounded-full px-4 py-2 mr-4" href="about.html">About</a>
+            <a class="nav-link inline-block text-gray-700 hover:text-black hover:bg-blue-300 rounded-full px-4 py-2" href="contactme.html">Contact</a>
         </div>
-    </nav>
+    </div>
+</nav>
 
-        <!-- HeaderS -->
+    <!-- Header -->
+    <header class="relative bg-white py-20">
+        <div class="container mx-auto text-center relative z-10">
+            <h1 class="text-4xl font-bold text-gray-800">Welcome to My Portfolio</h1>
+            <p class="mt-4 text-lg text-gray-700">Media Designer | 2 Years School Experience</p>
+        </div>
+    </header>
+<!DOCTYPE html>
+<html lang="en">
 
-        <header class="relative bg-white py-20">
-            <div class="container mx-auto text-center relative z-10">
-                <h1 class="text-4xl font-bold text-gray-800">Welcome to My Portfolio</h1>
-                <p class="mt-4 text-lg text-gray-700">Media Designer | 2 Years School Experience</p>
-            </div>
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Media Designer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Add hover effect to navigation links */
+        .nav-link:hover {
+            color: #4a4a4a; /* Change text color on hover */
+        }
 
-    <!-- Main Content -->
+        /* Add hover effect to portfolio items */
+        .portfolio-item:hover {
+            transform: scale(1.05); /* Scale up on hover */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+        }
+
+        /* Add hover effect to buttons */
+        .btn:hover {
+            background-color: #1e40af; /* Change background color on hover */
+        }
+    </style>
+</head>
+
+<body class="bg-blue-100 font-sans leading-normal tracking-normal">
+
+
     <main class="container mx-auto py-12">
-        <section class="mb-8">
-            <h2 class="text-2xl font-bold mb-4">About Me</h2>
-            <p class="text-gray-700">I'm a passionate media designer with 2 years of experience gained through my school education. I specialize in graphic design, web design, and multimedia production.</p>
+        <section class="mb-8 bg-white py-8 px-4 rounded-lg">
+            <div class="container mx-auto text-center">
+                <h2 class="text-2xl font-bold mb-4">About Me</h2>
+                <div class="flex justify-center items-center mb-4">
+                    <!-- Increase the width and height of the image -->
+                    <img src="images/6.png" alt="Leia" class="rounded-full w-64 h-64 object-cover">
+                </div>
+                <div class="text-center">
+                    <a href="about.html" class="btn bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Read more about me</a>
+                </div>
+            </div>
         </section>
+
+    
+
+    
 
         <section class="mb-8">
             <h2 class="text-2xl font-bold mb-4">Portfolio</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Sample portfolio items -->
-                <div class="shadow-md rounded-lg overflow-hidden bg-white bg-right bg-cover">
-                    <div style="background-image: url('images/but.png');"></div>
-                    <img src="project/image.png" alt="Project 1" class="w-full">
+                <div class="shadow-md rounded-lg overflow-hidden bg-white bg-right bg-right portfolio-item">
+                    <img src="project/image.png" alt="Project 3" class="w-full">
                     <div class="p-4">
-                        <h3 class="font-bold text-lg mb-2">Project 1</h3>
-                        <p class="text-gray-700">I created this for ,,,,,
-                            lslapkjasspfjas
-                            asnjfaoisihjoiasj
-                            <br>
-                            adasdfafs
-                            <br>
-                            adasdfafs
-                            <br>
-                            adasdfafs
-                            <br>
-                            adasdfafs
-                        </p>
-                        <a href="project1.html" class="mt-4 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">More Details</a>
+                        <h3 class="font-bold text-lg mb-2">Toronto Cupcake</h3>
+                        <a href="project1.html" class="btn mt-4 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">More Details</a>
                     </div>
                 </div>
-                <!-- Add more portfolio items here -->
-                <div class="shadow-md rounded-lg overflow-hidden bg-white bg-right bg-right" style="background-image: url('images/but.png');">                    
-                    <img src="https://via.placeholder.com/300" alt="Project 1" class="w-full">
+                <div class="shadow-md rounded-lg overflow-hidden bg-white bg-right bg-right portfolio-item">
+                    <img src="project2\IMG_2703.jpg" alt="Project 3" class="w-full">
                     <div class="p-4">
-                        <h3 class="font-bold text-lg mb-2">Project 2</h3>
-                        <p class="text-gray-700">Description of project 2.</p>
-                        <a href="project2.html" class="mt-4 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">More Details</a>
+                        <h3 class="font-bold text-lg mb-2">The Truman Show video</h3>
+                        <a href="project2.html" class="btn mt-4 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">More Details</a>
                     </div>
                 </div>
-                <div class="shadow-md rounded-lg overflow-hidden bg-white bg-bottom" style="background-image: url('images/but.png');">                    
-                    <img src="https://via.placeholder.com/300" alt="Project 3" class="w-full">
+                <div class="shadow-md rounded-lg overflow-hidden bg-white bg-bottom portfolio-item">
+                    <img src="project2\scene_01.png" alt="Project 3" class="w-full">
                     <div class="p-4">
-                        <h3 class="font-bold text-lg mb-2">Project 3</h3>
-                        <p class="text-gray-700">Description of project 3.</p>
-                        <a href="project3.html" class="mt-4 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">More Details</a>
+                        <h3 class="font-bold text-lg mb-2">Scrollytelling Mario's Evolution</h3>
+                        <a href="project3.html" class="btn mt-4 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">More Details</a>
                     </div>
                 </div>
-                <div class="shadow-md rounded-lg overflow-hidden bg-white bg-bottom" style="background-image: url('images/but.png');">                    
-                    <img src="https://via.placeholder.com/300" alt="Project 4" class="w-full">
+                <div class="shadow-md rounded-lg overflow-hidden bg-white bg-bottom portfolio-item">
+                    <img src="project2\landing.png" alt="Project 4" class="w-full">
                     <div class="p-4">
-                        <h3 class="font-bold text-lg mb-2">Project 4</h3>
-                        <p class="text-gray-700">Description of project 4.</p>
-                        <a href="project4.html" class="mt-4 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">More Details</a>
+                        <h3 class="font-bold text-lg mb-2">Kattencafe op zn kop</h3>
+                        <a href="project4.html" class="btn mt-4 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">More Details</a>
                     </div>
                 </div>
-                <div class="shadow-md rounded-lg overflow-hidden bg-white bg-right bg-cover" style="background-image: url('images/but.png');">                    
-                    <img src="https://via.placeholder.com/300" alt="Project 5" class="w-full">
+                <div class="shadow-md rounded-lg overflow-hidden bg-white bg-right bg-cover portfolio-item">
+                    <img src="project2\image.png" alt="Project 3" class="w-full">
                     <div class="p-4">
-                        <h3 class="font-bold text-lg mb-2">Project 5</h3>
-                        <p class="text-gray-700">Description of project 5.</p>
-                        <a href="project5.html" class="mt-4 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">More Details</a>
+                        <h3 class="font-bold text-lg mb-2">Mosaic</h3>
+                        <a href="project5.html" class="btn mt-4 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">More Details</a>
                     </div>
                 </div>
-                <div class="shadow-md rounded-lg overflow-hidden bg-white bg-right bg-cover" style="background-image: url('images/but.png');">                    
-                    <img src="https://via.placeholder.com/300" alt="Project 6" class="w-full">
+                <div class="shadow-md rounded-lg overflow-hidden bg-white bg-right bg-cover portfolio-item">
+                    <img src="project2\image2.png" alt="Project 3" class="w-full">
                     <div class="p-4">
-                        <h3 class="font-bold text-lg mb-2">Project 6</h3>
-                        <p class="text-gray-700">Description of project 6.</p>
-                        <a href="project6.html" class="mt-4 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">More Details</a>
+                        <h3 class="font-bold text-lg mb-2">Waterflow</h3>
+                        <a href="project6.html" class="btn mt-4 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">More Details</a>
                     </div>
                 </div>
             </div>
@@ -119,25 +148,19 @@
         <section class="mt-12">
             <div class="container mx-auto p-8 bg-white rounded-lg">
                 <h2 class="text-2xl font-bold mb-4 text-center">Contact Me</h2>
-                <p class="text-gray-700 text-center">Feel free to reach out to me through the following channels:</p>
-                <ul class="mt-4 text-center">
-                    <li class="mb-2"><span class="font-semibold">Email:</span> example@example.com</li>
-                    <li class="mb-2"><span class="font-semibold">Phone:</span> +123456789</li>
-                    <li class="mb-2"><span class="font-semibold">LinkedIn:</span> <a href="#">Profile</a></li>
-                </ul>
+                <div class="text-center">
+                    <a href="contactme.html" class="btn bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Contact Me</a>
+                </div>
             </div>
         </section>
+    </main>
 
     <!-- Footer -->
     <footer class="bg-blue-200 text-white text-center py-4">
         <p>&copy; 2024 SudoSuMaster/Leia. All rights reserved.</p>
     </footer>
-    <!-- Bottom Left Background Image -->
-    <img class="bottom-left" src="images/aaa.png" alt="Bottom Left Image">
 
     <script>
         // You can add JavaScript code here if needed
     </script>
 </body>
-
-</html>
